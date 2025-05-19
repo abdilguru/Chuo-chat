@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Complaint - Chuo Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Chuo Chat</h1>
+      <p>Speak Out – We're Listening</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="rate.html">Rate My School</a>
+        <a href="complaint.html">File Complaint</a>
+        <a href="forum.html">Student Forum</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container form-section">
+    <h2>File a Complaint</h2>
+    <form>
+      <label for="full-name">Your Name (Optional)</label>
+      <input type="text" id="full-name" name="full-name" placeholder="Leave blank to remain anonymous">
+
+      <label for="school">School Name</label>
+      <input type="text" id="school" name="school" placeholder="Enter school name..." required>
+
+      <label for="issue">Type of Issue</label>
+      <select id="issue" name="issue">
+        <option value="harassment">Harassment or Abuse</option>
+        <option value="corruption">Corruption or Bribery</option>
+        <option value="facilities">Poor Facilities</option>
+        <option value="fees">Unlawful Fees</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="details">Complaint Details</label>
+      <textarea id="details" name="details" rows="5" placeholder="Describe the issue clearly..." required></textarea>
+
+      <button type="submit" class="btn">Submit Complaint</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chuo Chat. Your voice matters.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate My School - Chuo Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="rate.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Chuo Chat</h1>
+      <p>Rate Your School Experience</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="rate.html">Rate My School</a>
+        <a href="complaint.html">File Complaint</a>
+        <a href="forum.html">Student Forum</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container rating-section">
+    <h2>Share Your School Experience</h2>
+    <form>
+      <label for="school-name">School Name</label>
+      <input type="text" id="school-name" name="school-name" placeholder="e.g., Moi High School" required>
+
+      <label for="rating">Rate Your School</label>
+      <div class="star-rating">
+        <input type="radio" id="5-stars" name="rating" value="5"><label for="5-stars">&#9733;</label>
+        <input type="radio" id="4-stars" name="rating" value="4"><label for="4-stars">&#9733;</label>
+        <input type="radio" id="3-stars" name="rating" value="3"><label for="3-stars">&#9733;</label>
+        <input type="radio" id="2-stars" name="rating" value="2"><label for="2-stars">&#9733;</label>
+        <input type="radio" id="1-star" name="rating" value="1"><label for="1-star">&#9733;</label>
+      </div>
+
+      <label for="review">Your Review</label>
+      <textarea id="review" name="review" rows="5" placeholder="Tell us about your experience..." required></textarea>
+
+      <button type="submit" class="btn">Submit Rating</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chuo Chat. All rights reserved.</p>
+  </footer>
+</body>
+</html>
